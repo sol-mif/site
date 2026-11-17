@@ -62,7 +62,7 @@
     <h2>How Sol is used (the beta)</h2>
     <p>While Sol is in beta, the app on your computer counts how it is used, so we can see what works: which buttons are pressed, how long a turn took and whether it finished, which mode (Home, Work or a room) and which AI answered, when the app was opened, and what broke. It never records what you type, say, read or open: no messages, no transcripts, no file names, no paths, no addresses. A text's length is kept only as a band ("21 to 100 characters"), a folder only as its last name and a hash of its path made with a secret that stays on your Mac.</p>
     <p>Once a day it also reads the files Claude Code and Codex keep on your Mac, and counts: how many prompts and answers a day, with which model, from which folder, and how many tokens; the kind of plan each is signed in with; and which AI apps are installed. It reads them to count, and sends numbers, not content: no words of a conversation, no email, no token, no key ever leaves your Mac.</p>
-    <p>The counts are written on your computer first, one file a day, and sent to the team's cloud once a day. They carry your name: the name you picked in Sol when you signed in, or else your Mac's user name, beside a code your Sol made. The beta's testers are people we know, and we look at the counts by person to understand how each of you uses Sol. Each post arrives from your computer's internet address, which the cloud's access log keeps for 14 days, as it does for everything else that reaches it. Each file is kept on your computer for 90 days. The cloud keeps the counts while the beta's questions are open. What happens to them after the beta will be said here before it is decided.</p>
+    <p>The counts are written on your computer first, one file a day, and sent once a day to the team's cloud and to the team's database at Supabase (in the United States), which keeps the day's counts and, for 30 days, the day's file. They carry your name: the name you picked in Sol when you signed in, or else your Mac's user name, beside a code your Sol made. The beta's testers are people we know, and we look at the counts by person to understand how each of you uses Sol. Each post arrives from your computer's internet address, which the cloud's access log keeps for 14 days, as it does for everything else that reaches it. Each file is kept on your computer for 90 days. The cloud keeps the counts while the beta's questions are open. What happens to them after the beta will be said here before it is decided.</p>
     <p>The first time Sol opens after this update, one card says all of this, with one button. There is no switch: to turn the counting off, or to have everything sent under your name deleted, say so in the beta testers' Discord and we do it the same day. A backup made before then keeps the rows until it ages out, 14 days.</p>
   </section>
 
@@ -74,7 +74,7 @@
   <section>
     <h2>Where it is kept, and who can see it</h2>
     <p>The cloud is one server at DigitalOcean in New York, United States. Backups are made daily on that server. An encrypted copy may also be kept with Hetzner, in Germany or Finland. The people who run Sol can see the cloud's data, and only to run and protect the service. We don't share it with anyone else, unless the law makes us.</p>
-    <p>The companies that keep Sol running handle only what they need to: DigitalOcean (the server and its backups), Hetzner (an encrypted backup copy), Google (sign-in, and the team inbox your email reaches), GitHub (this website, and the rooms you choose to connect to a repository) and Discord (the beta testers' server, if you join it).</p>
+    <p>The companies that keep Sol running handle only what they need to: DigitalOcean (the server and its backups), Supabase (the beta's usage counts), Hetzner (an encrypted backup copy), Google (sign-in, and the team inbox your email reaches), GitHub (this website, and the rooms you choose to connect to a repository) and Discord (the beta testers' server, if you join it).</p>
     <p>If you are in the European Union or the United Kingdom: we use your data to give you the service you signed up for, and, for the sign-up limits, the logs and reports, because we have a legitimate interest in keeping Sol safe. Your data is kept in the United States. You can ask to see, correct or delete your data, or object to how we use it, and you can complain to your data protection authority.</p>
   </section>
 
@@ -101,7 +101,7 @@
     <p>When this page changes, the date below changes. For a change that matters, we'll also tell you by email or in Sol before it takes effect.</p>
   </section>
 
-  <footer>Last changed 29 October 2026. <a href="terms.html">Terms</a> · <a href="support.html">Support</a></footer>
+  <footer>Last changed 17 November 2026. <a href="terms.html">Terms</a> · <a href="support.html">Support</a></footer>
 </main>
 </body>
 </html>
